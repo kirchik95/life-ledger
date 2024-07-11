@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
-import tsconfigPaths from 'vite-tsconfig-paths';
+import { defineConfig } from 'vite';
 import checker from 'vite-plugin-checker';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   css: {
@@ -19,7 +19,7 @@ export default defineConfig({
         lintCommand: 'eslint "./src/**/*.{ts, tsx, js, jsx}"',
       },
       stylelint: {
-        lintCommand: 'stylelint "./src/**/*.{scss, css}"',
+        lintCommand: 'stylelint "./src/**/*.css"',
       },
     }),
   ],

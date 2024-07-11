@@ -1,6 +1,6 @@
 import { Button } from '@ui/Button';
 
-import s from './App.module.scss';
+import s from './App.module.css';
 
 function App() {
   return (

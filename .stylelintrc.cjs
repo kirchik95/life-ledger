@@ -1,10 +1,10 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-standard-scss'],
+  extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order', 'stylelint-prettier'],
+  customSyntax: 'postcss',
   rules: {
     'prettier/prettier': true,
     'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
     'declaration-empty-line-before': null,
     'order/properties-order': [
       {
