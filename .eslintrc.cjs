@@ -28,7 +28,7 @@ module.exports = {
           { pattern: '@core/**', group: 'internal', position: 'after' },
           { pattern: '@features/**', group: 'internal', position: 'after' },
           { pattern: '@assets/**', group: 'internal', position: 'after' },
-          { pattern: './*.module.scss', group: 'index', position: 'after' },
+          { pattern: './*.module.css', group: 'index', position: 'after' },
         ],
         'newlines-between': 'always',
       },

@@ -38,13 +38,13 @@ module.exports = {
     '^@assets/(.*)$',
     '',
 
-    '^../(?!.*.(scss|module.scss)$).*$',
+    '^../(?!.*.(css|module.css)$).*$',
     '',
 
-    '^./(?!.*.(scss|module.scss)$).*$',
+    '^./(?!.*.(css|module.css)$).*$',
     '',
 
-    '.*\\.(scss|module\\.scss)$',
+    '.*\\.(css|module\\.css)$',
   ],
   importOrderSeparation: true,
 };
