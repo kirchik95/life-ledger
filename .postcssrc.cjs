@@ -1,3 +1,4 @@
+// @ts-nocheck
 const postCssCustomMedia = require('postcss-custom-media');
 const postCssCustomProperties = require('postcss-custom-properties');
 const postCssImport = require('postcss-import');
@@ -10,7 +11,7 @@ module.exports = {
     postCssNesting(),
     postCssCustomProperties(),
     postCssGlobalData({
-      files: ['./src/core/styles/media.css'],
+      files: ['./src/core/styles/media.css', './src/core/styles/variables.css'],
     }),
     postCssCustomMedia(),
   ],
