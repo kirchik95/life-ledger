@@ -1,0 +1,33 @@
+.root {
+  margin: 0;
+
+  &_xs {
+    font-size: var(--title-xs);
+    line-height: 32px;
+  }
+
+  &_sm {
+    font-size: var(--title-sm);
+    line-height: 38px;
+  }
+
+  &_md {
+    font-size: var(--title-md);
+    line-height: 44px;
+  }
+
+  &_lg {
+    font-size: var(--title-lg);
+    line-height: 60px;
+  }
+
+  &_xl {
+    font-size: var(--title-lg);
+    line-height: 72px;
+  }
+
+  &_2xl {
+    font-size: var(--title-lg);
+    line-height: 90px;
+  }
+}
