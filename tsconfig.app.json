@@ -5,7 +5,8 @@
     "paths": {
       "@ui/*": ["src/ui/*"],
       "@shared/*": ["src/shared/*"],
-      "@core/*": ["src/core/*"]
+      "@core/*": ["src/core/*"],
+      "@pages/*": ["src/pages/*"]
     },
 
     "composite": true,

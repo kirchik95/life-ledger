@@ -1,5 +1,3 @@
-.app {
-  @media (--desktop) {
-    background: red;
-  }
+.main {
+  margin-top: var(--space-48);
 }

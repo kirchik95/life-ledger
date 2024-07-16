@@ -1,11 +1,11 @@
-import cn from 'classnames';
+import { Container } from '@ui/Container';
 
 import s from './Home.module.css';
 
-interface HomeProps {
-  className?: string;
-}
-
-export const Home = ({ className }: HomeProps) => {
-  return <div className={cn(s.root, className)}></div>;
+export const Home = () => {
+  return (
+    <div className={s.root}>
+      <Container>Home</Container>
+    </div>
+  );
 };
