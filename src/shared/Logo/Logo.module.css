@@ -1,0 +1,9 @@
+.root {
+  font-size: var(--title-sm);
+  font-weight: 600;
+
+  a {
+    color: var(--gray-800);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  align-items: center;
+  margin-right: var(--space-32);
+
+  color: var(--gray-500);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.root:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  margin-right: var(--space-4);
+
+  path {
+    stroke: var(--gray-500);
+  }
+}
+
+.active {
+  color: var(--gray-700);
+
+  cursor: default;
+
+  .icon path {
+    stroke: var(--gray-700);
+  }
+}
+
+.root:hover {
+  color: var(--gray-700);
+
+  .icon path {
+    stroke: var(--gray-700);
+  }
+}

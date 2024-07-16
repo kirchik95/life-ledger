@@ -1,0 +1,8 @@
+.root {
+  margin-top: var(--space-40);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}

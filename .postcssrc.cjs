@@ -11,7 +11,7 @@ module.exports = {
     postCssNesting(),
     postCssCustomProperties(),
     postCssGlobalData({
-      files: ['./src/core/styles/media.css', './src/core/styles/variables.css'],
+      files: ['./src/core/styles/media.css'],
     }),
     postCssCustomMedia(),
   ],

@@ -8,5 +8,5 @@ interface ContainerProps {
 }
 
 export const Container = ({ children, className }: ContainerProps) => {
-  return <div className={cn(s.root, {}, [className])}>{children}</div>;
+  return <div className={cn(s.root, className)}>{children}</div>;
 };
