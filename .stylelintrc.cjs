@@ -6,6 +6,7 @@ module.exports = {
     'prettier/prettier': true,
     'at-rule-no-unknown': null,
     'declaration-empty-line-before': null,
+    'selector-class-pattern': null,
     'order/properties-order': [
       {
         groupName: 'pseudo',

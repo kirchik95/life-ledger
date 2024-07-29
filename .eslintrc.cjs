@@ -21,6 +21,14 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   rules: {
     'prettier/prettier': 'warn',
+    '@typescript-eslint/no-misused-promises': [
+      2,
+      {
+        checksVoidReturn: {
+          attributes: false,
+        },
+      },
+    ],
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'no-console': ['warn', { allow: ['error'] }],
     'import/no-unresolved': 2,
@@ -33,7 +41,9 @@ module.exports = {
         pathGroups: [
           { pattern: '@ui/**', group: 'internal', position: 'after' },
           { pattern: '@shared/**', group: 'internal', position: 'after' },
+          { pattern: '@entities/**', group: 'internal', position: 'after' },
           { pattern: '@core/**', group: 'internal', position: 'after' },
+          { pattern: '@pages/**', group: 'internal', position: 'after' },
           { pattern: '@features/**', group: 'internal', position: 'after' },
           { pattern: '@assets/**', group: 'internal', position: 'after' },
           { pattern: './*.module.css', group: 'index', position: 'after' },

@@ -15,3 +15,10 @@ export const routes: RouteConfig[] = [
     path: '/settings',
   },
 ];
+
+export const authRoutes: RouteConfig[] = [
+  {
+    element: React.lazy(() => import('@pages/Auth')),
+    path: '/auth',
+  },
+];

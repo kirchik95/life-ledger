@@ -2,7 +2,7 @@ import cn from 'classnames';
 
 import s from './Button.module.css';
 
-interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   className?: string;
   theme?: 'primary' | 'secondary';

@@ -29,7 +29,13 @@ module.exports = {
     '^@shared/(.*)$',
     '',
 
+    '^@entities/(.*)$',
+    '',
+
     '^@core/(.*)$',
+    '',
+
+    '^@pages/(.*)$',
     '',
 
     '^@features/(.*)$',
